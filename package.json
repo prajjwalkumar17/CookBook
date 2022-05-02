@@ -2,9 +2,11 @@
   "name": "cookbook",
   "version": "1.0.0",
   "description": "",
+  "defualt": "index.js",
   "scripts": {
     "start": "parcel index.html",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist",
+    "build": "parcel build index.html --dist-dir ./dist"
   },
   "repository": {
     "type": "git",
