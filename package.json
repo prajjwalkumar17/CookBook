@@ -1,0 +1,29 @@
+{
+  "name": "cookbook",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "parcel index.html",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prajjwalkumar17/CookBook.git"
+  },
+  "author": "Prajjwal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prajjwalkumar17/CookBook/issues"
+  },
+  "homepage": "https://github.com/prajjwalkumar17/CookBook#readme",
+  "devDependencies": {
+    "gh-pages": "^3.2.3",
+    "parcel": "^2.0.0-beta.1",
+    "sass": "^1.26.10"
+  },
+  "dependencies": {
+    "core-js": "^3.21.1",
+    "fractional": "^1.0.0",
+    "regenerator-runtime": "^0.13.9"
+  }
+}
